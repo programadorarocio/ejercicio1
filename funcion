@@ -1,0 +1,10 @@
+lista = [1,2,3]
+def saludo(lista, numero):
+  for numeros in lista:
+    if numero == 1:
+      print("Buenos dias")
+    elif numero == 2:
+      print("Buenas tardes")
+    else:
+      print("Buenas noches")
+saludo(lista,2)
